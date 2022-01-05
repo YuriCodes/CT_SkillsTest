@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Los Angeles Mountain</title>
+</head>
+<body>
+    <div id="welcomeImage"> <img class="welcomeImg"src="images/photo1459666644539a9.png">
+<header class="logot">
+    <img class="snow" src="images/Layer627.png">
+    <div id="Logo"><img src="images/Logo.png"></div>
+    <nav class="nav">
+        <a href="#History"> 01.History</a>
+        <a href="#Team"> 02.Team</a>
+    </nav>
+   
+<div id="LAMountainsTxt"> LOS ANGELES </div>
+<div id="MountainsTxt">Mountains</div>
+</header>
+</div>
+
+<section id="mainContent">
+    <nav id="secondNav">
+        <div id="secondLogo"> 
+            <img class="secondLogo1"src="images/Logo.png" alt="">
+            <img class="secondLogo1" src="images/LOSANGELESMOUNTAINS_0.png" alt="">
+        </div>
+    <div id="History01Team02_2" >
+        <a href="#History" class="secondHistory"> 01.History</a>
+        <a href="#Team" class="secondTeam"> 02.Team</a>
+    </div>
+    </nav>
+
+    <div id="History">  
+    <img src="images/peak.png" class="historyImg" alt="">
+    <div class="thirdHeader">
+    <img src="images/layer_01.png" alt=""> 
+    <img class="historyTextImg" src="images/HISTORY.png" alt="">
+    <div id="historyTxt">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at <br />
+            maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim <br />
+            Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </p>
+    </div>
+    </div>
+
+    <!-- carousel starts-->
+    <div class="carousel-container">
+        <div class="carousel">
+        <div class="picture">
+            <img src="images/photo1458442310124dd.png" class="cImg" alt="">
+        </div>
+        <div class="picture">
+            <img src="images/photo14439809957068d.png" class="cImg" alt="">
+        </div>
+        <div class="picture">
+            <img src="images/photo1458442310124dd.png" class="cImg" alt="">
+        </div>
+        <div class="picture">
+            <img src="images/photo14439809957068d.png" class="cImg" alt="">
+        </div>
+        </div>
+        <div class="buttons">
+            <span class="circle" onclick="selectedPic(1)"></span>
+            <span class="circle" onclick="selectedPic(2)"></span>
+            <span class="circle" onclick="selectedPic(3)"></span>
+            <span class="circle" onclick="selectedPic(4)"></span>
+        </div>
+    </div>
+    </div>
+     <!-- carousel ends-->
+
+    <div id="Team" class="Climb">
+        <div class="lastHeader">
+        <img src="images/layer_02.png" alt="">
+        <img class="climbImg" src="images/CLIMB.png" alt="">
+    <div id="climbTxt">
+        <p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, <br />
+            tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </p>
+    </div>
+    </div>
+    </div>
+
+     <!-- tab starts-->
+    <div class="mountainsHeader">
+    <button class="tabFlap" onclick="tabOpen(event, 'Mountain1')">MOUNTAIN1</button>
+    <button class="tabFlap" onclick="tabOpen(event, 'Mountain2')">MOUNTAIN2</button>
+    </div>
+
+    <div class="scheduleDates">    
+
+    <div id="Mountain1" class="tabtext">
+        <table>
+            <p class="scheduleTxt"> SCHEDULE </p>
+    
+        <tbody>
+            <tr>
+                <td>25 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>28 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>18 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>7 Jan 2017</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </div>
+  <div id="Mountain2" class="tabtext">
+    <table>
+        <p class="scheduleTxt"> SCHEDULE </p>
+        <tbody>
+            <tr>
+                <td>17 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>13 Dic 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>28 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>9 Feb 2017</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </div>
+</div>
+ <!-- tab ends-->
+
+  <!-- mobile accordion starts-->
+<div class="mobileAccordion">
+    <button class="accordion"> MOUNTAIN1</button>
+    <div class="panel">
+        <table>
+            <p class="scheduleTxtMob"> SCHEDULE </p>
+    
+        <tbody>
+            <tr>
+                <td>25 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>28 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>18 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+            <tr>
+                <td>7 Jan 2017</td>
+                <td>Vestibulum viverra</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </div>
+    <button class="accordion"> MOUNTAIN2</button>
+    <div class="panel">
+        <table>
+            <p class="scheduleTxtMob"> SCHEDULE </p>
+            <tbody>
+                <tr>
+                    <td>17 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>13 Dic 2016</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>28 Dec 2016</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>9 Feb 2017</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+ <!-- mobile accordion ends-->
+
+<footer>
+    <div class="company">
+    <img class="footerlogo" src="images/Logo.png" alt="">
+    <img class="footername" src="images/LOSANGELESMOUNTAINS.png" alt="">
+    </div>
+    <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+</footer>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

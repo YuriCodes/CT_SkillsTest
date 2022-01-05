@@ -1,0 +1,460 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url('images/Layer626.png');
+    overflow-x: hidden;
+}
+
+.logot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 2px;
+    min-width: 100vw;
+}
+
+.welcomeImg{
+   height: 90vh;
+   min-width: 100vw;
+}
+
+.snow{
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    min-width: 100vw;
+    height: 90vh;
+    opacity: 0.3;
+}
+#LAMountainsTxt{
+    font-family: 'Bebas Neue', cursive;
+    top: 100px;
+    font-weight: 400;
+    position: absolute;
+    letter-spacing: 6px;
+    opacity: 1;
+    font-size: 138px;
+    z-index: 1;
+    color: #4d4d4d;
+}
+#MountainsTxt{
+    font-family: 'Bebas Neue', cursive;
+    background-clip: rgb(0,0,0);
+    background: linear-gradient(4deg, rgba(0,0,0,1) 0%, rgb(112, 140, 197) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    font-weight: 400;
+    top: 200px;
+    letter-spacing: 6px;
+    font-size: 138px;
+    padding: 10px;
+}
+.nav, .secondNav{
+    z-index: 1;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.nav a{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    color: #4e5b75;
+}
+.secondHistory, .secondTeam{
+    color: #4e5b75;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #4e5b75;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+
+#mainContent{
+    min-width: 100vw;
+}
+
+#secondNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+#History01Team02_2 a:hover{
+    color: #76839c;
+}
+.historyImg{
+    height: 90vw;
+    min-width: 100vw;
+    position: relative;
+}
+.thirdHeader{
+    position: absolute;
+    top: 120%;
+    left: 20%;
+}
+.historyTextImg{
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+
+.carousel-container{
+    position: absolute;
+    background-image: url('images/Rectangle24.png');
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    padding: 20px;
+    margin-top: -200px;
+    opacity: 0.9;
+
+}
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cImg{
+    width: 200px;
+    height: 150px;
+}
+
+.buttons{
+    text-align: center;
+}
+.circle {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgb(218, 218, 218);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+  opacity: 1;
+}
+
+.Climb{
+    min-width: 100vw;
+    display: block;
+    height: 25vh;
+    padding: 20px;
+}
+.lastHeader{
+    position: absolute;
+    left: 20%;
+    display: flex;
+    align-items: center
+}
+.climbImg{
+    align-self: flex-end;
+    margin-left: -25px;
+    margin-bottom: 35px;
+}
+#climbTxt{
+    padding: 20px;
+}
+
+.mountainsHeader{
+    display: block;
+    min-width: 100vw;
+    height: 7vh;
+    background-image: url('images/Rectangle19.png');
+}
+.scheduleDates{
+    background-image: url('images/photo141702142391407.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tabFlap{
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    background-color: transparent;
+    color: #b0b4be;
+    letter-spacing: 1.2px;
+    padding: 10px;
+    position: relative;
+    left: 20%;
+}
+
+  /* Style the buttons that are used to open the tab content */
+  .tabFlap button {
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #b0b4be;
+
+  }
+  
+  /* Create an active/current tablink class */
+  .tabFlap.active {
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #414f6b;
+    height: inherit;
+    
+  }
+  
+  /* Style the tab content */
+  .tabtext {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.582);
+    color: #7a7b7d;
+    height: 35vh;
+    font-size: 18px;
+    width: 30vw;
+  }
+
+  table{
+    border-spacing: 30px 5px;
+    padding: 5px;
+  }
+
+.scheduleTxt{
+    color: #414f6b;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: #414f6b;
+    color: #63769d;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 100vw;
+    padding: 10px;
+}
+.footerlogo{
+    opacity: 0.3;
+}
+
+.company{
+    padding: 5px;
+}
+
+/*Mobile accordion*/
+
+.accordion {
+    background-color: #eee;
+    letter-spacing: 1.2px;
+    color: #414f6b;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: none;
+    height: fit-content;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: rgba(204, 204, 204, 0.507);
+    height: fit-content;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0.534);
+    display: none;
+    height: fit-content;
+    overflow: hidden;
+    color: #5f6061;
+  }
+
+@media screen and (max-width: 630px) {
+
+    .accordion{
+        display: block;
+    }
+    .scheduleDates, .mountainsHeader{
+        display: none;
+    }
+    .welcomeImg{
+        max-width: 370px;
+    }
+    .snow{
+        max-width: 370px;
+        display: block;
+    }
+    .logot{
+        padding: 30px;
+        max-width: 370px;
+        display: flex;
+        align-content: center;
+        align-self: center;
+        justify-content: flex-start;
+    }
+    #LAMountainsTxt, #MountainsTxt{
+        left: 10%;
+        font-size: 80px;
+        letter-spacing: 0;    
+        padding: 0;
+    }
+    .secondLogo1{
+        height: 30px;
+    }
+    #secondNav{
+        max-width: 370px;
+        padding: 5;
+        margin-left: 5px;
+        justify-content: flex-start;
+    }
+    .historyImg{
+        max-width: 370px;
+        display: block;
+        height: 700px;
+    }
+    .thirdHeader{
+     max-width: 370px;
+     top: 105%;
+     left: 2%;
+     padding: 10px;
+     display: block;
+
+    }
+    #historyTxt{
+        padding: 10px;
+        width: 310px;
+        color: #414f6b;
+    }
+    .carousel-container{
+        max-width: 370px;
+    }
+    .cImg{
+        max-width: 90px;
+        height: 80px;
+        padding: 3px;
+    }
+    .Climb{
+        max-width: 370px;
+    }
+    .climbImg{
+        margin-bottom: 60px;
+    }
+    .lastHeader{
+        display: block;
+        max-width: 370px;
+        left: 3%;
+        padding: 5px;
+        height: 50vh;
+        margin-bottom: 40px;
+    }
+    #climbTxt{
+        padding: 5px;
+        font-size: 20px;
+        color: #414f6b;
+    }
+    .mobileAccordion{
+        background-image: url('images/photo141702142391407.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Bebas Neue', cursive;
+        height: 90vh;
+        max-width: 580px;
+        margin-top: 150px;
+    }
+    .accordion{
+        padding: 20px;
+        color: #414f6b;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;    
+        max-width: 370px;
+    }
+    .panel{
+        display: block;
+        height: fit-content;
+        font-size: 20px;
+    }
+    .scheduleTxtMob{
+        color: #4e5b75;
+        font-size: 40px;
+    }
+    td{
+        padding: 10px;
+    }
+    
+    footer{
+        max-width: 370px;
+        position:relative;
+    }
+    .footerlogo, .footername{
+        width: 55px;
+    }
+    
+}
+
+
+@media (max-width: 1024px) and (orientation: landscape){ /* tablet and smaller */
+    #LAMountainsTxt, #MountainsTxt{
+        left: 20%;
+        font-size: 120px;
+        letter-spacing: 0;    
+        padding: 0;
+    }
+    #LAMountainsTxt{
+        top: 90%;
+        margin-bottom: 0px;
+    }
+    #MountainsTxt{
+        margin-top: -50px;
+    }
+    .historyImg{
+        width: 700px;
+    }
+    .thirdHeader{
+        left: 5%;
+    }
+    .historyText{
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .lastHeader{
+        left: 5%;
+    }
+    .Climb{
+        height: 40vh;
+    }
+    .mountainsHeader{
+        height: 10vh;
+    }
+    .tabtext{
+        height: fit-content;
+    }
+}
